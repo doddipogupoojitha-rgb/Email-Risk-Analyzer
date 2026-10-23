@@ -1,0 +1,33 @@
+
+EMAIL RISK ANALYZER - EXECUTION REPORT
+Workora CyberSecurity Task
+Date: 2026-04-11
+
+
+[1] HEADER ANALYSIS:
+    - Return-Path: noreply@gmail.com
+    - Received: from unknown-server (192.168.1.1)
+    - SPF: fail -> SUSPICIOUS (+30)
+    - DKIM: Missing -> SUSPICIOUS (+25)
+
+[2] BODY SCAN:
+    - Links found: 1
+        * Suspicious link: http://bit.ly/paypal-verify-account-login-secure-update (+20)
+    - Urgent keywords: ['urgent', 'immediate action', 'verify now', 'account suspended'] (+40)
+
+[3] RISK SCORE: 95/100 -> HIGH - Likely Phishing
+
+[4] EMAIL SECURITY AUDIT REPORT
+
+SPF Status: fail
+DKIM Status: Not Found
+Total Issues: 5
+    1. SPF check failed or missing
+    2. DKIM signature missing
+    3. Suspicious link: http://bit.ly/paypal-verify...
+    4. Urgent lure words: ['urgent', 'verify now', etc]
+    5. Possible domain spoofing
+Final Verdict: HIGH - Likely Phishing Email Detected
+
+
+Status: Task Completed Successfully
